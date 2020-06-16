@@ -1,0 +1,22 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "The Odin Project Etch-a-Sketch project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruben-ruiz/etch-a-sketch.git"
+  },
+  "author": "Ruben Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruben-ruiz/etch-a-sketch/issues"
+  },
+  "homepage": "https://github.com/ruben-ruiz/etch-a-sketch#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
