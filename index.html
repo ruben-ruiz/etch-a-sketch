@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Etch-a-Sketch</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        
-        <script src="index.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Etch-a-Sketch</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Etch-A-Sketch</h1>
+        <nav class="navbar">
+            <button class="btn btn-reset">
+                Reset Grid
+            </button>
+            <div class="dropdown">
+                <button class="btn btn-size">
+                    Grid Size
+                </button>
+                <div class="dropdown-content">
+                    <input type="number" list="grid-size" placeholder="columns" />
+                    <input type="number" list="grid-size" placeholder="rows" />
+                    <button class="btn btn-submit">Change</button>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-color">
+                    Color Picker
+                </button>
+                <div class="dropdown-content">
+                    <select name="grid-color" id="grid-color">
+                        <option value="Rainbow">Rainbow</option>
+                        <option value="Black">Black</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
 </html>

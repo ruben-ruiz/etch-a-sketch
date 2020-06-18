@@ -1,0 +1,31 @@
+.header {
+    padding: 0 1rem;
+    background: linear-gradient(to bottom right, var(--color-primary) 30%, #000);
+    border-bottom: .25rem solid;
+    border-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-title {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+
+.navbar {
+    width: max-content;
+    display: flex;
+}
+
+
+.main {
+    height: 60rem;
+    width: 60rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-45%);
+    background-color: #fff;
+    position: absolute;
+}
