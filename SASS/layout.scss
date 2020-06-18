@@ -28,4 +28,7 @@
     transform: translateX(-50%) translateY(-45%);
     background-color: #fff;
     position: absolute;
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-template-rows: repeat(var(--rows), 1fr);
 }
