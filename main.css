@@ -2,7 +2,8 @@
   --color-primary: rgb(16, 46, 75);
   --color-secondary: #3F7FBF;
   --columns: '---';
-  --rows: '---'; }
+  --rows: '---';
+  --color-hover-grid: '---'; }
 
 * {
   margin: 0;
